@@ -1,0 +1,33 @@
+.freelances{
+    background-color: #001524;
+}
+
+.freelances-conteudo{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.freelances-conteudo h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.free{
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media (max-width: 786px) {
+    .freelances-conteudo h2{
+        font-size: 26px;
+    }
+
+    .free{
+        width: 100%;
+    }
+}
