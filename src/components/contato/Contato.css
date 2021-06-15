@@ -1,0 +1,86 @@
+.contato {
+    background-color: #001524;
+}
+
+.contato-conteudo {
+    width: 100%;
+    max-width: 1280px;
+    padding: 50px 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato-conteudo img {
+    height: 500px;
+    margin-right: 50px;
+}
+
+.contato-conteudo .texto {
+    flex: 1;
+}
+
+.contato-conteudo h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.contato-conteudo p a,
+.contato-conteudo p {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.whatsapp-btn {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: #15616d;
+    width: fit-content;
+    margin-top: 20px;
+    border: 3px solid #15616d;
+    border-radius: 5px;
+}
+
+.whatsapp-btn .icone {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.whatsapp-btn:hover {
+    border-color: #fff;
+    background-color: transparent;
+}
+
+@media (max-width: 996px) {
+    .contato-conteudo img {
+        display: none;
+    }
+
+    .contato-conteudo h2 {
+        font-size: 26px;
+    }
+
+    .contato-conteudo p a,
+    .contato-conteudo p {
+        font-size: 18px;
+        text-align: justify;
+        line-height: 30px;
+    }
+
+    .whatsapp-btn {
+        font-size: 16px;
+        width: 100%;
+        justify-content: center;
+    }
+}
