@@ -1,0 +1,121 @@
+header {
+    background-color: #001524;
+}
+
+.header {
+    max-width: 1280px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo .logo-img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.menu-principal {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-principal .menu-item {
+    margin: 0 10px;
+}
+
+.menu-principal .menu-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.menu-principal .menu-link:hover {
+    text-decoration: underline;
+}
+
+.redes-sociais .menu-item {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.redes-sociais .menu-link {
+    font-size: 24px;
+}
+
+.toogle-menu {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .menu-principal {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+
+    .redes-sociais {
+        flex-direction: row;
+    }
+
+    .ativo {
+        display: flex;
+    }
+
+    .menu-principal .menu-item {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .redes-sociais .menu-item {
+        margin-right: 20px;
+    }
+
+    .logo .logo-img {
+        height: 30px;
+    }
+
+    .logo h3 {
+        font-size: 20px;
+    }
+
+    .area-mobile {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .toogle-menu {
+        display: block;
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        font-size: 24px;
+    }
+}
