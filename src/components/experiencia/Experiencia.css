@@ -32,6 +32,9 @@
     border-radius: 10px;
     margin-right: 50px;
 }
+.expe .proa {
+    background-color: transparent;
+}
 
 .expe .expe-img img {
     width: 230px;
@@ -66,6 +69,10 @@
         border-radius: 10px;
         margin-right: 0;
         margin-bottom: 50px;
+    }
+
+    .expe .proa {
+        background-color: transparent;
     }
 
     .expe h4 {

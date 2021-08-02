@@ -2,6 +2,7 @@ import React from 'react';
 import './Banner.css';
 import renan from '../../img/renan.png';
 import curriculo from '../../files/curriculo-renan-lima.docx';
+import curriculo_eng from '../../files/curriculo-renan-lima-eng.docx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faScroll } from '@fortawesome/free-solid-svg-icons';
 
@@ -15,6 +16,10 @@ function Banner() {
                     <a className='curriculo' href={curriculo} download>
                         <FontAwesomeIcon icon={faScroll} className='icone'/>
                         Conheça meu currículo
+                    </a>
+                    <a className='curriculo eng' href={curriculo_eng} download>
+                        <FontAwesomeIcon icon={faScroll} className='icone'/>
+                        Download my resume
                     </a>
                 </div>
                 <img src={renan} alt='Foto Renan'/>
