@@ -1,12 +1,13 @@
 import React from 'react';
 import './Experiencia.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock, faBriefcase, faCog} from '@fortawesome/free-solid-svg-icons';
+import { faClock, faBriefcase, faCog } from '@fortawesome/free-solid-svg-icons';
 
 import fcl from '../../img/fcl.png';
 import bravo from '../../img/bravo.png';
 import prestus from '../../img/prestus-logo.png';
 import zarpo from '../../img/zarpo.png';
+import proa from '../../img/proa.svg';
 
 function Experiencia() {
     return (
@@ -14,19 +15,30 @@ function Experiencia() {
             <div className='experiencia-conteudo' id='experiencia'>
                 <h2>Experiências Profissionais</h2>
                 <div className='expe'>
+                    <a className='expe-img proa' target='_blank' rel='noreferrer' href='https://www.proa.org.br/'>
+                        <img src={proa} alt='Instituto PROA' />
+                    </a>
+                    <div className='expe-texto'>
+                        <h4>Instituto PROA</h4>
+                        <p><strong><FontAwesomeIcon icon={faBriefcase} /> Cargo: </strong>Líder Técnico de Desenvolvimento de Software</p>
+                        <p><strong><FontAwesomeIcon icon={faClock} /> Tempo de atuação: </strong>De Junho de 2021 até Atualmente</p>
+                        <p><strong><FontAwesomeIcon icon={faCog} /> Funções exercidas: </strong>Executar manutenção no sistema de ensino a distancia em Moodle, desenvolvendo novas tecnologias para o instituto e coordenando atividades relacionadas a Desenvolvimento.</p>
+                    </div>
+                </div>
+                <div className='expe'>
                     <a className='expe-img' target='_blank' rel='noreferrer' href='https://fcl.com.br/'>
-                        <img src={fcl} alt='Fundação Cásper Líbero'/>
+                        <img src={fcl} alt='Fundação Cásper Líbero' />
                     </a>
                     <div className='expe-texto'>
                         <h4>Fundação Cásper Líbero</h4>
                         <p><strong><FontAwesomeIcon icon={faBriefcase} /> Cargo: </strong>Programdor de Sistemas SR.</p>
-                        <p><strong><FontAwesomeIcon icon={faClock} /> Tempo de atuação: </strong>De Maio de 2020 até Atualmente</p>
+                        <p><strong><FontAwesomeIcon icon={faClock} /> Tempo de atuação: </strong>De Maio de 2020 até Junho de 2021</p>
                         <p><strong><FontAwesomeIcon icon={faCog} /> Funções exercidas: </strong>Criação e manutenção de temas e plugins de Wordpress. Verificar Google Search console e elaborar soluções para erros encontrados nos sites da Fundação. Elaboração de estratégias de otimização de desempenho de sites.</p>
                     </div>
                 </div>
                 <div className='expe'>
                     <a className='expe-img' target='_blank' rel='noreferrer' href='https://www.bravocorp.com.br/'>
-                        <img src={bravo} alt='Bravo - Projects and OutSourcing'/>
+                        <img src={bravo} alt='Bravo - Projects and OutSourcing' />
                     </a>
                     <div className='expe-texto'>
                         <h4>Bravo - Projects and OutSourcing</h4>
@@ -37,7 +49,7 @@ function Experiencia() {
                 </div>
                 <div className='expe'>
                     <a className='expe-img' target='_blank' rel='noreferrer' href='https://www.prestus.com.br/'>
-                        <img src={prestus} alt='Prestus - Secretárias Compartilhadas'/>
+                        <img src={prestus} alt='Prestus - Secretárias Compartilhadas' />
                     </a>
                     <div className='expe-texto'>
                         <h4>Prestus - Secretárias Compartilhadas</h4>
@@ -48,7 +60,7 @@ function Experiencia() {
                 </div>
                 <div className='expe'>
                     <a className='expe-img' target='_blank' rel='noreferrer' href='https://www.zarpo.com.br/'>
-                        <img src={zarpo} alt='Zarpo Viagens'/>
+                        <img src={zarpo} alt='Zarpo Viagens' />
                     </a>
                     <div className='expe-texto'>
                         <h4>Zarpo Viagens</h4>

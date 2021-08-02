@@ -31,7 +31,7 @@ function Conhecimentos() {
                     <li className='conhecimento'><FontAwesomeIcon icon={faJava} className='icone'/> Java</li>
                     <li className='conhecimento'><FontAwesomeIcon icon={faPython} className='icone'/> Python</li>
                     <li className='conhecimento'><FontAwesomeIcon icon={faDatabase} className='icone'/> MySQL</li>
-                    <li className='conhecimento'><FontAwesomeIcon icon={faDatabase} className='icone'/> PostGree</li>
+                    <li className='conhecimento'><FontAwesomeIcon icon={faDatabase} className='icone'/> PostgreSQL</li>
                     <li className='conhecimento'><FontAwesomeIcon icon={faDatabase} className='icone'/> Mongo DB</li>
                     <li className='conhecimento'><FontAwesomeIcon icon={faGitAlt} className='icone'/> Git</li>
                 </ul>
