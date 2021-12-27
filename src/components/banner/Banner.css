@@ -23,12 +23,14 @@
     color: #fff;
     text-transform: uppercase;
     font-size: 52px;
+    line-height: 62px;
     margin-bottom: 30px;
 }
 
 .banner-conteudo .texto h3 {
     color: #fff;
     font-size: 32px;
+    line-height: 42px;
     margin-bottom: 30px;
 }
 

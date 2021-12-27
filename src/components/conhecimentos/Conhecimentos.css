@@ -23,6 +23,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .lista-conhecimentos .conhecimento {
@@ -43,7 +44,42 @@
     margin-right: 10px;
 }
 
+.box-conhecimento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box-conhecimento .show-conhecimento{
+    display: block;
+    width: 24%;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #001524;
+    background-color: #fff;
+    box-shadow: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box-conhecimento .show-conhecimento .icone{
+    margin-right: 20px;
+}
+
 @media (max-width: 786px) {
+    .box-conhecimento{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .box-conhecimento .show-conhecimento{
+        width: 100%;
+        margin-top: 20px;
+    }
+
     .lista-conhecimentos .conhecimento {
         width: 48%;
         font-size: 18px;
