@@ -36,7 +36,12 @@ header {
 .menu-principal {
     list-style: none;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+.header .sections{
+    flex: 1;
 }
 
 .menu-principal .menu-item {

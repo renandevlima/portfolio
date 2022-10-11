@@ -5,7 +5,6 @@ import 'slick-carousel/slick/slick-theme.css';
 import './Freelances.css';
 
 import citygreen from '../../img/citygreen.png';
-import dozeroaosenior from '../../img/dozeroaosenior.png';
 import grupo_era from '../../img/grupo-era.png';
 import jdr from '../../img/jdr.png';
 import prestus from '../../img/prestus.png';
@@ -46,13 +45,10 @@ class Freelances extends Component {
         return (
             <section className='freelances'>
                 <div className='freelances-conteudo' id='freelances'>
-                    <h2>Freelances que realizei</h2>
+                    <h2>Jobs</h2>
                     <Slider {...settings}>
                         <a href='https://citygreen.com/' target='_blank' rel='noreferrer'>
                             <img className='free' src={citygreen}  alt='Citygreen'/>
-                        </a>
-                        <a href='https://www.dozeroaosenior.com.br/' target='_blank' rel='noreferrer'>
-                            <img className='free' src={dozeroaosenior} alt='Do Zero Ao Senior' />
                         </a>
                         <a href='https://www.dentistasgrupoera.com.br/dentista-tatuape/' target='_blank'  rel='noreferrer'>
                             <img className='free' src={grupo_era} alt='Grupo Era Dentistas' />
