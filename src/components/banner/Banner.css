@@ -1,21 +1,18 @@
 .banner-inicial {
     background-color: #15616d;
-    height: 600px;
 }
 
 .banner-conteudo {
     width: 100%;
     max-width: 1280px;
-    padding: 0 20px;
+    padding: 120px 20px 50px;
     margin: 0 auto;
-    padding-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.banner-conteudo img {
-    height: 500px;
+.banner-conteudo .youtube {
     margin-left: 50px;
 }
 
@@ -69,10 +66,15 @@
 
     .banner-conteudo {
         padding: 100px 20px 50px;
+        flex-direction: column;
     }
 
-    .banner-conteudo img {
-        display: none;
+
+    .banner-conteudo .youtube{
+        max-width: 100%;
+        margin-left: 0;
+        height: 210px;
+        margin-top: 30px;
     }
 
     .banner-conteudo .texto h1 {
